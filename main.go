@@ -3,13 +3,14 @@ package main
 import (
 	"github.com/astaxie/beego"
 	_ "github.com/astaxie/beego/logs"
-	"hello/models"
-	_ "hello/routers"
+	"hellos/models"
+	_ "hellos/routers"
 
 )
 
 func init(){
 	models.Init()
+
 	beego.BConfig.WebConfig.Session.SessionOn = true
 	beego.SetLogger("file", `{"filename":"logs/test.log"}`)
 	beego.SetLevel(beego.LevelNotice)

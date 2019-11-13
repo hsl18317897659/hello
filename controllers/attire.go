@@ -1,13 +1,13 @@
 package controllers
 
 import (
-	"fmt"
+	//"fmt"
 	"github.com/astaxie/beego/logs"
 	"github.com/astaxie/beego/orm"
-	"hello/models"
+	"hellos/models"
 	"strconv"
 	"time"
-	//"hello/tests"
+	//"hellos/tests"
 )
 
 

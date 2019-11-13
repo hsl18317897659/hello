@@ -3,7 +3,7 @@ package controllers
 import (
 	"fmt"
 	"github.com/astaxie/beego/orm"
-	"hello/models"
+	"Hello/models"
 )
 
 type HelloController struct {
