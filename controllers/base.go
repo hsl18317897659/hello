@@ -21,5 +21,6 @@ func (c *BaseController) Error(code int, msg string)  {
 	error := &err{code, msg}
 	c.Data["json"] = error
 	c.ServeJSON()
+	c.StopRun()
 }
 

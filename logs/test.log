@@ -92,3 +92,244 @@
 2019/11/13 16:47:44.218 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:1878
 2019/11/13 16:47:44.218 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/asm_amd64.s:1337
 2019/11/13 16:47:44.218 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/11/14 14:42:02.224 [C] [panic.go:522]  the request url is  /upgrade/novice
+2019/11/14 14:42:02.224 [C] [panic.go:522]  Handler crashed with error <Ormer.QueryTable> table name: `hellos/models.Prop` not exists
+2019/11/14 14:42:02.224 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/panic.go:522
+2019/11/14 14:42:02.224 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/orm/orm.go:440
+2019/11/14 14:42:02.224 [C] [panic.go:522]  /Users/husl/go/src/hellos/controllers/upgrade.go:31
+2019/11/14 14:42:02.224 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/reflect/value.go:447
+2019/11/14 14:42:02.224 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/reflect/value.go:308
+2019/11/14 14:42:02.224 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/router.go:853
+2019/11/14 14:42:02.224 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:2774
+2019/11/14 14:42:02.224 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:1878
+2019/11/14 14:42:02.224 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/asm_amd64.s:1337
+2019/11/14 14:42:02.225 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/11/14 14:42:08.067 [C] [panic.go:522]  the request url is  /upgrade/novice
+2019/11/14 14:42:08.067 [C] [panic.go:522]  Handler crashed with error <Ormer.QueryTable> table name: `hellos/models.Prop` not exists
+2019/11/14 14:42:08.067 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/panic.go:522
+2019/11/14 14:42:08.067 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/orm/orm.go:440
+2019/11/14 14:42:08.067 [C] [panic.go:522]  /Users/husl/go/src/hellos/controllers/upgrade.go:31
+2019/11/14 14:42:08.067 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/reflect/value.go:447
+2019/11/14 14:42:08.067 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/reflect/value.go:308
+2019/11/14 14:42:08.067 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/router.go:853
+2019/11/14 14:42:08.067 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:2774
+2019/11/14 14:42:08.067 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:1878
+2019/11/14 14:42:08.067 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/asm_amd64.s:1337
+2019/11/14 14:42:08.067 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/11/14 14:42:13.950 [C] [panic.go:522]  the request url is  /upgrade/novice
+2019/11/14 14:42:13.950 [C] [panic.go:522]  Handler crashed with error <Ormer.QueryTable> table name: `hellos/models.Prop` not exists
+2019/11/14 14:42:13.951 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/panic.go:522
+2019/11/14 14:42:13.951 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/orm/orm.go:440
+2019/11/14 14:42:13.951 [C] [panic.go:522]  /Users/husl/go/src/hellos/controllers/upgrade.go:31
+2019/11/14 14:42:13.951 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/reflect/value.go:447
+2019/11/14 14:42:13.951 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/reflect/value.go:308
+2019/11/14 14:42:13.951 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/router.go:853
+2019/11/14 14:42:13.951 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:2774
+2019/11/14 14:42:13.951 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:1878
+2019/11/14 14:42:13.951 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/asm_amd64.s:1337
+2019/11/14 14:42:13.951 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/11/14 14:42:26.509 [C] [panic.go:522]  the request url is  /upgrade/novice
+2019/11/14 14:42:26.509 [C] [panic.go:522]  Handler crashed with error <Ormer.QueryTable> table name: `hellos/models.Prop` not exists
+2019/11/14 14:42:26.509 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/panic.go:522
+2019/11/14 14:42:26.509 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/orm/orm.go:440
+2019/11/14 14:42:26.509 [C] [panic.go:522]  /Users/husl/go/src/hellos/controllers/upgrade.go:31
+2019/11/14 14:42:26.509 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/reflect/value.go:447
+2019/11/14 14:42:26.509 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/reflect/value.go:308
+2019/11/14 14:42:26.509 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/router.go:853
+2019/11/14 14:42:26.509 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:2774
+2019/11/14 14:42:26.509 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:1878
+2019/11/14 14:42:26.509 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/asm_amd64.s:1337
+2019/11/14 14:42:26.509 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/11/14 14:43:08.340 [C] [panic.go:522]  the request url is  /upgrade/novice
+2019/11/14 14:43:08.340 [C] [panic.go:522]  Handler crashed with error <Ormer.QueryTable> table name: `hellos/models.Prop` not exists
+2019/11/14 14:43:08.340 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/panic.go:522
+2019/11/14 14:43:08.340 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/orm/orm.go:440
+2019/11/14 14:43:08.340 [C] [panic.go:522]  /Users/husl/go/src/hellos/controllers/upgrade.go:31
+2019/11/14 14:43:08.340 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/reflect/value.go:447
+2019/11/14 14:43:08.340 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/reflect/value.go:308
+2019/11/14 14:43:08.340 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/router.go:853
+2019/11/14 14:43:08.340 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:2774
+2019/11/14 14:43:08.340 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:1878
+2019/11/14 14:43:08.340 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/asm_amd64.s:1337
+2019/11/14 14:43:08.341 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/11/14 14:43:09.151 [C] [panic.go:522]  the request url is  /upgrade/novice
+2019/11/14 14:43:09.151 [C] [panic.go:522]  Handler crashed with error <Ormer.QueryTable> table name: `hellos/models.Prop` not exists
+2019/11/14 14:43:09.151 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/panic.go:522
+2019/11/14 14:43:09.151 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/orm/orm.go:440
+2019/11/14 14:43:09.151 [C] [panic.go:522]  /Users/husl/go/src/hellos/controllers/upgrade.go:31
+2019/11/14 14:43:09.151 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/reflect/value.go:447
+2019/11/14 14:43:09.151 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/reflect/value.go:308
+2019/11/14 14:43:09.151 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/router.go:853
+2019/11/14 14:43:09.151 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:2774
+2019/11/14 14:43:09.151 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:1878
+2019/11/14 14:43:09.151 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/asm_amd64.s:1337
+2019/11/14 14:43:09.152 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/11/14 14:46:07.365 [C] [panic.go:522]  the request url is  /upgrade/novice
+2019/11/14 14:46:07.366 [C] [panic.go:522]  Handler crashed with error <Ormer.QueryTable> table name: `hellos/models.Prop` not exists
+2019/11/14 14:46:07.366 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/panic.go:522
+2019/11/14 14:46:07.366 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/orm/orm.go:440
+2019/11/14 14:46:07.366 [C] [panic.go:522]  /Users/husl/go/src/hellos/controllers/upgrade.go:31
+2019/11/14 14:46:07.366 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/reflect/value.go:447
+2019/11/14 14:46:07.366 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/reflect/value.go:308
+2019/11/14 14:46:07.366 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/router.go:853
+2019/11/14 14:46:07.366 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:2774
+2019/11/14 14:46:07.366 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:1878
+2019/11/14 14:46:07.366 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/asm_amd64.s:1337
+2019/11/14 14:46:07.366 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/11/14 14:46:08.244 [C] [panic.go:522]  the request url is  /upgrade/novice
+2019/11/14 14:46:08.244 [C] [panic.go:522]  Handler crashed with error <Ormer.QueryTable> table name: `hellos/models.Prop` not exists
+2019/11/14 14:46:08.244 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/panic.go:522
+2019/11/14 14:46:08.244 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/orm/orm.go:440
+2019/11/14 14:46:08.244 [C] [panic.go:522]  /Users/husl/go/src/hellos/controllers/upgrade.go:31
+2019/11/14 14:46:08.244 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/reflect/value.go:447
+2019/11/14 14:46:08.244 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/reflect/value.go:308
+2019/11/14 14:46:08.244 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/router.go:853
+2019/11/14 14:46:08.245 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:2774
+2019/11/14 14:46:08.245 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:1878
+2019/11/14 14:46:08.245 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/asm_amd64.s:1337
+2019/11/14 14:46:08.245 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/11/14 14:48:30.077 [C] [panic.go:522]  the request url is  /upgrade/novice
+2019/11/14 14:48:30.077 [C] [panic.go:522]  Handler crashed with error unknown field/column name `send`
+2019/11/14 14:48:30.077 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/panic.go:522
+2019/11/14 14:48:30.077 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/orm/db_tables.go:368
+2019/11/14 14:48:30.077 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/orm/db.go:990
+2019/11/14 14:48:30.077 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/orm/orm_queryset.go:220
+2019/11/14 14:48:30.077 [C] [panic.go:522]  /Users/husl/go/src/hellos/controllers/upgrade.go:31
+2019/11/14 14:48:30.077 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/reflect/value.go:447
+2019/11/14 14:48:30.077 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/reflect/value.go:308
+2019/11/14 14:48:30.077 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/router.go:853
+2019/11/14 14:48:30.077 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:2774
+2019/11/14 14:48:30.078 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:1878
+2019/11/14 14:48:30.078 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/asm_amd64.s:1337
+2019/11/14 14:48:30.078 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/11/14 15:13:13.804 [C] [panic.go:522]  the request url is  /upgrade/novice
+2019/11/14 15:13:13.805 [C] [panic.go:522]  Handler crashed with error unknown field/column name `Age__gt`
+2019/11/14 15:13:13.805 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/panic.go:522
+2019/11/14 15:13:13.805 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/orm/db_tables.go:368
+2019/11/14 15:13:13.805 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/orm/db.go:990
+2019/11/14 15:13:13.805 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/orm/orm_queryset.go:213
+2019/11/14 15:13:13.805 [C] [panic.go:522]  /Users/husl/go/src/hellos/controllers/upgrade.go:39
+2019/11/14 15:13:13.805 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/reflect/value.go:447
+2019/11/14 15:13:13.805 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/reflect/value.go:308
+2019/11/14 15:13:13.805 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/router.go:853
+2019/11/14 15:13:13.806 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:2774
+2019/11/14 15:13:13.806 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:1878
+2019/11/14 15:13:13.806 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/asm_amd64.s:1337
+2019/11/14 15:13:13.807 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/11/14 16:32:52.868 [C] [panic.go:522]  the request url is  /upgrade/novice
+2019/11/14 16:32:52.869 [C] [panic.go:522]  Handler crashed with error <Ormer> cannot use non-ptr model struct `hellos/models.Propuid`
+2019/11/14 16:32:52.869 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/panic.go:522
+2019/11/14 16:32:52.869 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/orm/orm.go:108
+2019/11/14 16:32:52.869 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/orm/orm.go:163
+2019/11/14 16:32:52.869 [C] [panic.go:522]  /Users/husl/go/src/hellos/controllers/upgrade.go:61
+2019/11/14 16:32:52.869 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/reflect/value.go:447
+2019/11/14 16:32:52.869 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/reflect/value.go:308
+2019/11/14 16:32:52.869 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/router.go:853
+2019/11/14 16:32:52.869 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:2774
+2019/11/14 16:32:52.869 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:1878
+2019/11/14 16:32:52.869 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/asm_amd64.s:1337
+2019/11/14 16:32:52.870 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/11/14 16:33:53.416 [C] [panic.go:522]  the request url is  /upgrade/novice
+2019/11/14 16:33:53.416 [C] [panic.go:522]  Handler crashed with error <Ormer> cannot use non-ptr model struct `hellos/models.Propuid`
+2019/11/14 16:33:53.416 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/panic.go:522
+2019/11/14 16:33:53.416 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/orm/orm.go:108
+2019/11/14 16:33:53.416 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/orm/orm.go:163
+2019/11/14 16:33:53.416 [C] [panic.go:522]  /Users/husl/go/src/hellos/controllers/upgrade.go:61
+2019/11/14 16:33:53.416 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/reflect/value.go:447
+2019/11/14 16:33:53.416 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/reflect/value.go:308
+2019/11/14 16:33:53.416 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/router.go:853
+2019/11/14 16:33:53.416 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:2774
+2019/11/14 16:33:53.416 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:1878
+2019/11/14 16:33:53.416 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/asm_amd64.s:1337
+2019/11/14 16:33:53.417 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/11/14 16:33:57.160 [C] [panic.go:522]  the request url is  /upgrade/novice
+2019/11/14 16:33:57.160 [C] [panic.go:522]  Handler crashed with error <Ormer> cannot use non-ptr model struct `hellos/models.Propuid`
+2019/11/14 16:33:57.160 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/panic.go:522
+2019/11/14 16:33:57.160 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/orm/orm.go:108
+2019/11/14 16:33:57.160 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/orm/orm.go:163
+2019/11/14 16:33:57.160 [C] [panic.go:522]  /Users/husl/go/src/hellos/controllers/upgrade.go:61
+2019/11/14 16:33:57.160 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/reflect/value.go:447
+2019/11/14 16:33:57.160 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/reflect/value.go:308
+2019/11/14 16:33:57.160 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/router.go:853
+2019/11/14 16:33:57.160 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:2774
+2019/11/14 16:33:57.160 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:1878
+2019/11/14 16:33:57.160 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/asm_amd64.s:1337
+2019/11/14 16:33:57.161 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/11/14 16:33:57.905 [C] [panic.go:522]  the request url is  /upgrade/novice
+2019/11/14 16:33:57.905 [C] [panic.go:522]  Handler crashed with error <Ormer> cannot use non-ptr model struct `hellos/models.Propuid`
+2019/11/14 16:33:57.905 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/panic.go:522
+2019/11/14 16:33:57.905 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/orm/orm.go:108
+2019/11/14 16:33:57.905 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/orm/orm.go:163
+2019/11/14 16:33:57.905 [C] [panic.go:522]  /Users/husl/go/src/hellos/controllers/upgrade.go:61
+2019/11/14 16:33:57.905 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/reflect/value.go:447
+2019/11/14 16:33:57.905 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/reflect/value.go:308
+2019/11/14 16:33:57.905 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/router.go:853
+2019/11/14 16:33:57.905 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:2774
+2019/11/14 16:33:57.905 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:1878
+2019/11/14 16:33:57.905 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/asm_amd64.s:1337
+2019/11/14 16:33:57.906 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/11/14 16:33:58.649 [C] [panic.go:522]  the request url is  /upgrade/novice
+2019/11/14 16:33:58.649 [C] [panic.go:522]  Handler crashed with error <Ormer> cannot use non-ptr model struct `hellos/models.Propuid`
+2019/11/14 16:33:58.649 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/panic.go:522
+2019/11/14 16:33:58.649 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/orm/orm.go:108
+2019/11/14 16:33:58.649 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/orm/orm.go:163
+2019/11/14 16:33:58.649 [C] [panic.go:522]  /Users/husl/go/src/hellos/controllers/upgrade.go:61
+2019/11/14 16:33:58.649 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/reflect/value.go:447
+2019/11/14 16:33:58.649 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/reflect/value.go:308
+2019/11/14 16:33:58.649 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/router.go:853
+2019/11/14 16:33:58.650 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:2774
+2019/11/14 16:33:58.650 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:1878
+2019/11/14 16:33:58.650 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/asm_amd64.s:1337
+2019/11/14 16:33:58.650 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/11/14 16:33:58.930 [C] [panic.go:522]  the request url is  /upgrade/novice
+2019/11/14 16:33:58.930 [C] [panic.go:522]  Handler crashed with error <Ormer> cannot use non-ptr model struct `hellos/models.Propuid`
+2019/11/14 16:33:58.930 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/panic.go:522
+2019/11/14 16:33:58.930 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/orm/orm.go:108
+2019/11/14 16:33:58.930 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/orm/orm.go:163
+2019/11/14 16:33:58.930 [C] [panic.go:522]  /Users/husl/go/src/hellos/controllers/upgrade.go:61
+2019/11/14 16:33:58.930 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/reflect/value.go:447
+2019/11/14 16:33:58.931 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/reflect/value.go:308
+2019/11/14 16:33:58.931 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/router.go:853
+2019/11/14 16:33:58.931 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:2774
+2019/11/14 16:33:58.931 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:1878
+2019/11/14 16:33:58.931 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/asm_amd64.s:1337
+2019/11/14 16:33:58.931 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/11/14 16:34:44.451 [C] [panic.go:522]  the request url is  /upgrade/novice
+2019/11/14 16:34:44.451 [C] [panic.go:522]  Handler crashed with error <Ormer> cannot use non-ptr model struct `hellos/models.Propuid`
+2019/11/14 16:34:44.451 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/panic.go:522
+2019/11/14 16:34:44.451 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/orm/orm.go:108
+2019/11/14 16:34:44.451 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/orm/orm.go:163
+2019/11/14 16:34:44.451 [C] [panic.go:522]  /Users/husl/go/src/hellos/controllers/upgrade.go:61
+2019/11/14 16:34:44.451 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/reflect/value.go:447
+2019/11/14 16:34:44.451 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/reflect/value.go:308
+2019/11/14 16:34:44.451 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/router.go:853
+2019/11/14 16:34:44.451 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:2774
+2019/11/14 16:34:44.451 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:1878
+2019/11/14 16:34:44.451 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/asm_amd64.s:1337
+2019/11/14 16:34:44.452 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/11/14 16:37:07.875 [C] [panic.go:522]  the request url is  /upgrade/novice
+2019/11/14 16:37:07.875 [C] [panic.go:522]  Handler crashed with error <Ormer> cannot use non-ptr model struct `hellos/models.Propuid`
+2019/11/14 16:37:07.875 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/panic.go:522
+2019/11/14 16:37:07.875 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/orm/orm.go:108
+2019/11/14 16:37:07.875 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/orm/orm.go:163
+2019/11/14 16:37:07.875 [C] [panic.go:522]  /Users/husl/go/src/hellos/controllers/upgrade.go:60
+2019/11/14 16:37:07.875 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/reflect/value.go:447
+2019/11/14 16:37:07.875 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/reflect/value.go:308
+2019/11/14 16:37:07.875 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/router.go:853
+2019/11/14 16:37:07.876 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:2774
+2019/11/14 16:37:07.876 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:1878
+2019/11/14 16:37:07.876 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/asm_amd64.s:1337
+2019/11/14 16:37:07.876 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2019/11/14 16:37:32.039 [C] [panic.go:522]  the request url is  /upgrade/novice
+2019/11/14 16:37:32.039 [C] [panic.go:522]  Handler crashed with error <Ormer> cannot use non-ptr model struct `hellos/models.Propuid`
+2019/11/14 16:37:32.039 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/panic.go:522
+2019/11/14 16:37:32.039 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/orm/orm.go:108
+2019/11/14 16:37:32.039 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/orm/orm.go:163
+2019/11/14 16:37:32.039 [C] [panic.go:522]  /Users/husl/go/src/hellos/controllers/upgrade.go:60
+2019/11/14 16:37:32.039 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/reflect/value.go:447
+2019/11/14 16:37:32.039 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/reflect/value.go:308
+2019/11/14 16:37:32.039 [C] [panic.go:522]  /Users/husl/go/src/github.com/astaxie/beego/router.go:853
+2019/11/14 16:37:32.039 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:2774
+2019/11/14 16:37:32.039 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/net/http/server.go:1878
+2019/11/14 16:37:32.039 [C] [panic.go:522]  /usr/local/Cellar/go/1.12.7/libexec/src/runtime/asm_amd64.s:1337
+2019/11/14 16:37:32.039 [server.go:3010]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)

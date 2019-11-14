@@ -15,7 +15,7 @@ func Init()  {
 
 	dsn := dbuser + ":" + dbpassword + "@(" + dbhost + ":" +dbport + ")/" + dbname + "?charset=utf8"
 	orm.RegisterDataBase("default", "mysql", dsn)
-	orm.RegisterModel(new(Course), new(Attire))
+	orm.RegisterModel(new(Course), new(Attire), new(Upgrade), new(Propuid), new(Prop))
 }
 
 //返回带前缀的表名
